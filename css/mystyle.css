@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section{
+
+    position: relative;
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    padding:50px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+   
+   
+   
+
+
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;   
+    width:100%;
+    padding:20px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    position: relative;
+    max-width:50px;
+    border-radius:50px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+
+}
+
+header ul li{
+   list-style: none;
+  
+}
+
+header ul li a{
+    display: inline-block;
+    color:darkblue;
+    padding:20px 10px;
+    margin-left:40px;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+header .signup a{
+    background: #fff;
+    padding:8px 10px;
+    margin-top:10px;
+    border-radius: 30px;
+    border:1px solid #000;
+    color:rgb(238, 61, 61);
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.content .text{
+    position: relative;
+    top:30;
+    max-width: 600px;
+}
+.content .text h2{
+    font-size: 2em;
+    line-height:1em;
+    color:darkblue;
+   
+}
+
+
+.content .text span:nth-child(1){
+    color: rgb(238, 61, 61);
+}
+.content .text p{
+    margin-top:20px;
+    font-size: 20px;
+    color:#000;
+   
+}
+
+.content .imgContainer{
+   
+     display: flex;
+     width:600px;
+     padding-right:50px;
+     margin-top: 50px  ;
+     justify-content: flex-end;
+     
+}
+  
+.content .imgContainer img{
+    max-width:150px;
+   
+}
+
+.sm{
+    position: absolute;
+    top:60%;
+    right: 10px;
+    width:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.sm  .smlogo{
+
+    display: flex;
+    max-width: 80px;
+    transform:scale(0.3);
+   
+}
+
+
